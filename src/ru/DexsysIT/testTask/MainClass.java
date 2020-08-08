@@ -9,11 +9,12 @@ public class MainClass {
 
     public static void main(String[] args) throws IOException {
 
-       ArrayList<Integer> Numbers = Task_1.ArrayOfNumbers(new ArrayList<>());
+       ArrayList<Integer> Numbers = Task_1.InitArray(new ArrayList<>());
 
-       Task_1.Remainder_3(Numbers);
-       Task_1.Remainder_7(Numbers);
-       Task_1.Remainder_21(Numbers);
+        Task_1.Remainder_3(Numbers);
+        Task_1.Remainder_7(Numbers);
+        Task_1.Remainder_21(Numbers);
+        Task_1.printType('s');
 
     }
 }
