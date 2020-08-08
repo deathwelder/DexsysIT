@@ -14,11 +14,5 @@ public class MainClass {
         Task_1.Remainder_3(Numbers);
         Task_1.Remainder_7(Numbers);
         Task_1.Remainder_21(Numbers);
-        Task_1.MainList(Numbers);
-        Task_1.anyMore();
-
-
-
-
     }
 }

@@ -115,12 +115,12 @@ public class Task_1 {
 
     }
 
-    public static void anyMore() {
+    public static boolean anyMore() {
 
             if ( Rem3.size() + Rem7.size() + Rem21.size() < MainList.size()) {
-               System.out.println(true);
+              return true;
 
-            } else System.out.println(false);
+            } else return false;
 
     }
 
